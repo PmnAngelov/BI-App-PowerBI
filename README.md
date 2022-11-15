@@ -33,8 +33,7 @@ The above data model is of type star schema. The data is imported into PowerBI f
 </p>
 
 
-Revenue is currently trending up, resulting in a 18.94% increase between 2013 and 2015. The company's revenue jumped from $46,928,592 to $55,817,887 during its steepest incline between 2013 and 2015. The customer - Mauno Laurila accounted for 20.48% of the company's revenue. 2015 had the highest total revenue at $55,817,887, followed by 2014 at 51,492,003 and 2013 at 46,928,592. The salesperson Lily Code in Year 2015 contributed with 3.83% for the company's revenue. At 181.188, the product - Black and orange fragile despatch tape 48mmx75m had the highest quantity sold and was 36.10% higher than the 3 kg Courier post bag (White) 300x190x95mm, which had the lowest quantity sold at 133.125.
-
+Revenue is currently trending up, resulting in a 18.94% increase between 2013 and 2015. The company's revenue jumped from $46,928,592 to $55,817,887 during its steepest incline between 2013 and 2015. The customer - Mauno Laurila accounted for 20.48% of the company's revenue. The salesperson Lily Code in Year 2015 contributed with 3.83% for the company's revenue. At 181.188, the product - Black and orange fragile despatch tape 48mmx75m had the highest quantity sold and was 36.10% higher than the 3 kg Courier post bag (White) 300x190x95mm, which had the lowest quantity sold at 133.125.
 
 
 <p align="center">
