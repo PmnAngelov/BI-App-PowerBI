@@ -15,6 +15,8 @@ The developed BI application strives to achieve the above-mentioned results usin
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/DataModel.PNG" />
 </p>
 
+The above data model is of type star schema. The data is imported into PowerBI from an SQL Server database - "WideWorldImporters". In order to optimize the data experience, I created a new schema and five data views, since not only are views good for defining a table without using extra storage, but they also accelerate data analysis and can provide the data extra security.
+
 
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Intro.PNG" />
