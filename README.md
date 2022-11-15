@@ -12,5 +12,26 @@ The developed BI application strives to achieve the above-mentioned results usin
 
 
 <p align="center">
-<img align="center" src="https://github.com/PmnAngelov/BI-app/blob/main/imgs/Tables.PNG" width="800" height="400" />
+<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/DataModel.PNG" />
 </p>
+
+
+<p align="center">
+<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Intro.PNG" />
+</p>
+
+
+<p align="center">
+<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Main.PNG" />
+</p>
+
+
+<p align="center">
+<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Sales.PNG" />
+</p>
+
+
+<p align="center">
+<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Stock.PNG" />
+</p>
+
