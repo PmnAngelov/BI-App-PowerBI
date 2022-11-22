@@ -12,10 +12,10 @@ The developed BI application strives to achieve the above-mentioned results usin
 
 
 <p align="center">
-<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/DataModel.PNG" />
+<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/DataModel.PNG" width="800" height="400" />
 </p>
 
-The above data model is of type star schema. The data is imported into PowerBI from an SQL Server database - "WideWorldImporters". In order to optimize the data experience, I created a new schema and five data views, since not only are views good for defining a table without using extra storage, but they also accelerate data analysis and can provide the data extra security.
+The above data model is of type star schema. The data is imported into PowerBI from an SQL Server database - "WideWorldImporters". In order to optimize the data experience, I created a new schema and five data views, since not only are views good for defining a table without using extra storage, but they also accelerate data analysis and can provide the data extra security. Using Data Analysis Expressions (DAX), the data making up the Revenue column was calculated by multiplying each quantity sold by the respective unit price.
 
 
 <p align="center">
