@@ -33,11 +33,11 @@ The above data model is of type star schema. The data is imported into PowerBI f
 </p>
 
 
-Revenue is currently trending up, resulting in a 18.94% increase between 2013 and 2015. The company's revenue jumped from $46,928,592 to $55,817,887 during its steepest incline between 2013 and 2015. The customer - Mauno Laurila accounted for 20.48% of the company's revenue. The salesperson Lily Code in Year 2015 contributed with 3.83% for the company's revenue. At 181.188, the product - Black and orange fragile despatch tape 48mmx75m had the highest quantity sold and was 36.10% higher than the 3 kg Courier post bag (White) 300x190x95mm, which had the lowest quantity sold at 133.125.
-
-
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Stock.PNG" />
 </p>
+
+Revenue is currently trending up, resulting in a 18.94% increase between 2013 and 2015. The company's revenue jumped from $46,928,592 to $55,817,887 during its steepest incline between 2013 and 2015. The customer - Mauno Laurila accounted for 20.48% of the company's revenue. The salesperson Lily Code in Year 2015 contributed with 3.83% for the company's revenue. At 181.188, the product - Black and orange fragile despatch tape 48mmx75m had the highest quantity sold and was 36.10% higher than the 3 kg Courier post bag (White) 300x190x95mm, which had the lowest quantity sold at 133.125.
+
 
 The average price of the company’s products is $45.51. The most expensive product category being “Toys” with average price of $124.04 and the cheapest category being “Mugs” with an average price of $13.00. The best-selling product category is “Packaging Materials” and the least sold products are from category “USB Novelties”. The company’s main supplier by far, supplying 74.76% of all products, is “Fabrikam, Inc.”, followed by “Litware, Inc.” making for 25.18% of all supplies.
