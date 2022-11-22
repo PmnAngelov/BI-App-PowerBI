@@ -24,7 +24,7 @@ The above data model is of type star schema. The data is imported into PowerBI f
 
 
 <p align="center">
-<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Main.PNG" />
+<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/MainDashboard.PNG" />
 </p>
 
 
