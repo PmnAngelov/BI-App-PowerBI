@@ -8,14 +8,41 @@ BI app, made in PowerBI, for creating different bussines analyses by modeling an
 
 The use of the application is supposed to lead to better business decisions based on data and statistics, easier viewing and understanding of the data collected by the organization and an overall improved methodology of work related to management and decision-making. 
 
-The developed BI application strives to achieve the above-mentioned results using various methods such as visualizing the data, analyzing the data by performing mathematical operations on data sets to gather new insights and creating interactive dashboards for management that can be used to monitor KPIs.
+The data is imported into PowerBI from an SQL Server database - "WideWorldImporters". In order to optimize the data experience, I created a new schema and five data views, since not only are views good for defining a table without using extra storage, but they also accelerate data analysis and can provide the data extra security.
 
+<code> 
+CREATE VIEW Dashboard.DimCustomers AS
+(
+SELECT
+	Customers.CustomerID AS CustomerID,
+	Customers.CustomerName AS [Customer Name],
+	CustomerCategories.CustomerCategoryName as [Customer Category],
+	Cities.CityName AS City,
+	StateProvinces.StateProvinceName AS [State],
+	Customers.AccountOpenedDate AS [Account Opened Date],
+	YEAR(Customers.AccountOpenedDate) AS [Account Opened Year],
+	MONTH(Customers.AccountOpenedDate) AS [Account Opened Month]
+FROM Sales.Customers AS Customers
+
+INNER JOIN Sales.CustomerCategories AS CustomerCategories
+ON CustomerCategories.CustomerCategoryID = Customers.CustomerCategoryID 
+
+INNER JOIN Application.Cities AS Cities
+ON Cities.CityID = Customers.DeliveryCityID
+
+INNER JOIN Application.StateProvinces AS StateProvinces
+ON Cities.StateProvinceID = StateProvinces.StateProvinceID
+
+WHERE YEAR(Customers.AccountOpenedDate) < 2016
+
+);
+<code>
 
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/DataModel.PNG" width="800" height="500" />
 </p>
 
-The above data model is of type star schema. The data is imported into PowerBI from an SQL Server database - "WideWorldImporters". In order to optimize the data experience, I created a new schema and five data views, since not only are views good for defining a table without using extra storage, but they also accelerate data analysis and can provide the data extra security. Using Data Analysis Expressions (DAX), the data making up the Revenue column was calculated by multiplying each quantity sold by the respective unit price.
+The above data model is of type star schema. Using Data Analysis Expressions (DAX), the data making up the Revenue column was calculated by multiplying each quantity sold by the respective unit price.
 
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Intro.PNG" />
