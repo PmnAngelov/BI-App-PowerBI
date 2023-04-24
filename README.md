@@ -10,8 +10,7 @@ The use of the application is supposed to lead to better business decisions base
 
 The data is imported into PowerBI from an SQL Server database - "WideWorldImporters". In order to optimize the data experience, I created a new schema and five data views, since not only are views good for defining a table without using extra storage, but they also accelerate data analysis and can provide the data extra security.
 
-<code> 
-
+```
 CREATE VIEW Dashboard.DimCustomers AS
 (
 SELECT
@@ -36,8 +35,7 @@ ON Cities.StateProvinceID = StateProvinces.StateProvinceID
 
 WHERE YEAR(Customers.AccountOpenedDate) < 2016
 );
-
-<code>
+```
 
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/DataModel.PNG" width="800" height="500" />
