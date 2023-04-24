@@ -37,6 +37,8 @@ WHERE YEAR(Customers.AccountOpenedDate) < 2016
 );
 ```
 
+After the data has been imported and the relationships established, the design is as follows:
+
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/DataModel.PNG" width="800" height="500" />
 </p>
