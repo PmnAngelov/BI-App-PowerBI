@@ -1,7 +1,7 @@
 # Business Intelligence App using Power BI
 
 BI app, made in PowerBI, for creating different bussines analyses by modeling and integrating the gathered data using SQL, performing statistical analysis with DAX to gather new insights and visualizing them by creating interactive dashboards that can be used to monitor KPIs. The use of the application is supposed to lead to better business decisions based on data and statistics.
-<br/><br/>
+
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Overview.png" />
 </p>
