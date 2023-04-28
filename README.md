@@ -5,6 +5,24 @@ BI app, made in PowerBI, for creating different bussines analyses by modeling an
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Overview.png" />
 </p>
+
+## Project Overview
+#### **1. Data Preprocessing And Loading**
+* Query the SQL Server database in order to understand the data
+* Create a new schema and data views using SQL
+* Import the data from the database into PowerBI
+
+#### **2. Data Modelling**
+* Established relationships between the tables
+* Aggregate and create new columns, using DAX
+* Transform the data types as needed for analysis
+
+#### **2. Dashboard and KPIs**
+* Understand the business questions that need to be answered
+* Visualize different plots, metrics and design the UI
+* Configure slicers and other visual details
+* Draw conclusions
+
 The data is imported into PowerBI from an SQL Server database - "WideWorldImporters". In order to optimize the data experience, I created a new schema and five data views, since not only are views good for defining a table without using extra storage, but they also accelerate data analysis and can provide the data extra security.
 <br/>
 
