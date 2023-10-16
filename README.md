@@ -3,7 +3,7 @@
 Business Intelligence Application, made with SQL Server and PowerBI, containing interactive dashboards that can be used to monitor KPIs. The use of the application is supposed to lead to better business decisions based on data and statistics.
 
 <p align="center">
-<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Overview.png" />
+<img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Overview.jpg" />
 </p>
 
 ## Project Overview
