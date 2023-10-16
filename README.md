@@ -1,6 +1,6 @@
 # Business Intelligence App using Power BI
 
-Business Intelligence Application, made with SQL Server and PowerBI, containing interactive dashboards that can be used to monitor KPIs. The use of the application is supposed to lead to better business decisions based on data and statistics.
+Business Intelligence Application, made with SQL Server, Python and PowerBI, containing interactive dashboards that can be used to monitor KPIs. The use of the application is supposed to lead to better business decisions based on data and statistics.
 
 <p align="center">
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Overview.jpg" />
@@ -8,6 +8,7 @@ Business Intelligence Application, made with SQL Server and PowerBI, containing 
 
 ## Project Overview
 #### **1. Data Preprocessing And Loading**
+* Understand the business questions that need to be answered
 * Query the SQL Server database in order to understand the data
 * Create a new schema and data views using SQL
 * Import the data from the database into PowerBI
@@ -18,8 +19,8 @@ Business Intelligence Application, made with SQL Server and PowerBI, containing 
 * Transform the data types as needed for analysis
 
 #### **2. Dashboard and KPIs**
-* Understand the business questions that need to be answered
 * Visualize different plots, metrics and design the UI
+* Utilised Python for more detailed visualizations
 * Configure slicers and other visual details
 * Draw conclusions
 
