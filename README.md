@@ -84,6 +84,45 @@ The dashboard provides insights into key performance indicators (KPIs) and can b
 <img align="center" src="https://github.com/PmnAngelov/BI-App-PowerBI/blob/main/Images/Stock.PNG" />
 </p>
 
+Python script used for creating the WordCloud with the most common product names found in the dataset:
+
+```
+# Prolog - Auto Generated #
+import os, uuid, matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot
+import pandas
+import sys
+sys.tracebacklimit = 0
+
+os.chdir(u'C:/Users/user/PythonEditorWrapper')
+dataset = pandas.read_csv('input_df.csv')
+matplotlib.pyplot.figure(figsize=(5.55555555555556,4.16666666666667), dpi=72)
+matplotlib.pyplot.show = lambda args=None,kw=None: matplotlib.pyplot.savefig(str(uuid.uuid1()))
+
+# Original Script. Please update your script content here and once completed copy below section back to the original editing window #
+# The following code to create a dataframe and remove duplicated rows is always executed and acts as a preamble for your script: 
+# dataset = pandas.DataFrame(Product Name)
+# dataset = dataset.drop_duplicates()
+
+# Paste or type your script code here:
+from wordcloud import WordCloud
+import matplotlib.pyplot as plt
+
+# Combine all product names into a single string
+text = " ".join(product for product in dataset['Product Name'])
+
+# Create a WordCloud object and generate the word cloud
+wordcloud = WordCloud(width=800, height=400, background_color='white', max_words=40).generate(text)
+
+# Display the word cloud using Matplotlib
+plt.figure(figsize=(16, 8))
+plt.imshow(wordcloud, interpolation='bilinear')
+plt.axis('off')
+plt.title('Products offered', fontsize=36)
+plt.show()
+```
+
 ## Conclusion
 
 Revenue is currently trending up, resulting in a 18.94% increase between 2013 and 2015. The company's revenue jumped from $46,928,592 to $55,817,887 during its steepest incline between 2013 and 2015. The customer - Mauno Laurila accounted for 20.48% of the company's revenue. The salesperson Lily Code in Year 2015 contributed with 3.83% for the company's revenue. At 181.188, the product - Black and orange fragile despatch tape 48mmx75m had the highest quantity sold and was 36.10% higher than the 3 kg Courier post bag (White) 300x190x95mm, which had the lowest quantity sold at 133.125.
